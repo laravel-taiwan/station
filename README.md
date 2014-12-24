@@ -1,25 +1,24 @@
-# What is Station?
+# Station 是什麼?
 
-Station is a simple, module based framework for customizing the [laravel/homestead](https://github.com/laravel/homestead) vagrant environment.
+Station 是一個為了更簡易客製化 [laravel/homestead](https://github.com/laravel/homestead) vagrant 環境的模組化框架。
 
-Station extends homesteads Yaml configuration file with features such as: xdebug, zsh, oh-my-zsh, ruby-gem installers and much more.
+Station 擴展了 Homesteads Yaml 設定檔，增加了以下功能如：xdebug, zsh, oh-my-zsh, ruby-gem installers 還有更多。
 
-## Installation
+## 安裝
 
-1. Install requirements (Vagrant & Virtualbox)
-	* Newest version of virtualbox [download](https://www.virtualbox.org/wiki/Downloads)
-	* Virtualbox Extension Pack: located on virtualbox downloads page
-	* Newest Vagrant build: Manages the virtual machine through virtual box [download](https://www.vagrantup.com/downloads.html)
+1. 安裝必要組件 (Vagrant & Virtualbox)
+* 最新版本的 virtualbox [下載](https://www.virtualbox.org/wiki/Downloads)
+* Virtualbox 套件包: 在 virtualbox 下載頁可以找到。
+* 最新的 Vagrant: 透過 Virtualbox 來管理虛擬機器。[下載](https://www.vagrantup.com/downloads.html)
 
-2. Add the Laravel Homestead box to your vagrant environment:
-	* `vagrant box add laravel/homestead`
+2. 增加 Laravel Homestead box 到你的 vagrant 環境中:
+* `vagrant box add laravel/homestead`
 
-## About Homestead
+## 關於 Homestead
+[Laravel Homestead](http://laravel.com/docs/4.2/homestead) 頁面裡的介紹：
 
-From the [Laravel Homestead](http://laravel.com/docs/4.2/homestead) page:
+** Laravel Homestead 是一個官方的、預先打包好的 Vagrant “box”，提供你一個完美環境，不需要你安裝 PHP, HHVM, 或是網站伺服器，甚至任何其他伺服器軟體在你的本機上，不用擔心會搞亂你的作業系統！Vagrant boxes 可以被完全支配。如果有什麼地方怪怪的，你只要銷毀然後重建 box，這只是瞬間的事情。**
 
-**Laravel Homestead is an official, pre-packaged Vagrant "box" that provides you a wonderful development environment without requiring you to install PHP, HHVM, a web server, and any other server software on your local machine. No more worrying about messing up your operating system! Vagrant boxes are completely disposable. If something goes wrong, you can destroy and re-create the box in minutes!**
+## 準備開始
 
-## Getting Started
-
-The best place to get started is to read the [wiki](https://github.com/mcuyar/station/wiki).
+最好開始的方式就是閱讀 [wiki](https://github.com/laravel-taiwan/station/wiki).
