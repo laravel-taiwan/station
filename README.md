@@ -7,12 +7,12 @@ Station 擴展了 Homesteads Yaml 設定檔，增加了以下功能如：xdebug,
 ## 安裝
 
 1. 安裝必要組件 (Vagrant & Virtualbox)
-* 最新版本的 virtualbox [下載](https://www.virtualbox.org/wiki/Downloads)
-* Virtualbox 套件包: 在 virtualbox 下載頁可以找到。
-* 最新的 Vagrant: 透過 Virtualbox 來管理虛擬機器。[下載](https://www.vagrantup.com/downloads.html)
+  * 最新版本的 virtualbox [下載](https://www.virtualbox.org/wiki/Downloads)
+  * Virtualbox 套件包: 在 virtualbox 下載頁可以找到。
+  * 最新的 Vagrant: 透過 Virtualbox 來管理虛擬機器。[下載](https://www.vagrantup.com/downloads.html)
 
 2. 增加 Laravel Homestead box 到你的 vagrant 環境中:
-* `vagrant box add laravel/homestead`
+  * `vagrant box add laravel/homestead`
 
 ## 關於 Homestead
 [Laravel Homestead](http://laravel.com/docs/4.2/homestead) 頁面裡的介紹：
